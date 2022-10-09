@@ -6,8 +6,8 @@ public interface CocheService {
 
 //    Sin cuerpo entre llaves
 
-    public CochePOO crearCocheDemo();
+	CochePOO crearCocheDemo();
 
-    public void destruirCoche(CochePOO cochePOO);
+	void destruirCoche(CochePOO cochePOO);
 
 }

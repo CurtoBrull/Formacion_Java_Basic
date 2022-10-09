@@ -2,5 +2,20 @@
   "java.format.settings.url": ".vscode/java-formatter.xml",
   "[java]": {
     "editor.insertSpaces": false
-  }
+  },
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "ejemplo",
+      "database": "ejemplo",
+      "username": "root",
+      "password": "Fortuna100,"
+    }
+  ]
 }
