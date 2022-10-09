@@ -1,7 +1,5 @@
 package StackQueueHashTable;
 
-import com.sun.jdi.Value;
-
 import java.util.Hashtable;
 
 public class HashTableMain {

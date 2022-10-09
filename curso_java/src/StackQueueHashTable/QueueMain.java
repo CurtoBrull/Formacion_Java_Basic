@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class QueueMain {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 //		Queue - Cola
 //		First in, first out

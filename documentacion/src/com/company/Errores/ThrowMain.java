@@ -14,7 +14,7 @@ public class ThrowMain {
 		/**
 		 * Lee nombre por consola y verifica la longitud
 		 *
-		 * @throws NameFormatException
+		 * @throws NameFormatException error
 		 */
 		private static void leerNombres() throws NameFormatException {
 
@@ -26,7 +26,7 @@ public class ThrowMain {
 						String nombre = teclado.nextLine();
 						if (nombre.length() < 8) {
 								teclado.close();
-								throw new NameFormatException("El nombre debe contener minimo 8 caracteres");
+								throw new NameFormatException("El nombre debe contener mínimo 8 caracteres");
 						}
 				}
 				teclado.close();
