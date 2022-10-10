@@ -1,4 +1,4 @@
-package Funciones;
+package com.company.Funciones;
 
 public class FuncionesMain {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class FuncionesMain {
 		System.out.println("3.Aceptar");
 	}
 
-	private static String getMenu(){
+	private static String getMenu() {
 		return "¿Quieres las funciones?";
 	}
 }

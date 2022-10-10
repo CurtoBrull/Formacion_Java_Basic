@@ -1,4 +1,4 @@
-package StackQueueHashTable;
+package com.company.StackQueueHashTable;
 
 import java.util.Hashtable;
 
@@ -21,7 +21,6 @@ public class HashTableMain {
 		System.out.println(tabla.get(1));
 		System.out.println(tabla.get(6));
 		System.out.println(tabla.get("Ferrari"));
-
 
 
 	}

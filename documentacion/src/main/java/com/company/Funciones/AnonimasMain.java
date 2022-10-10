@@ -1,4 +1,4 @@
-package Funciones;
+package com.company.Funciones;
 
 public class AnonimasMain {
 	public static void main(String[] args) {

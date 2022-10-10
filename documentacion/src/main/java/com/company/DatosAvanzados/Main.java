@@ -1,4 +1,4 @@
-package DatosAvanzados;
+package com.company.DatosAvanzados;
 
 public class Main {
 

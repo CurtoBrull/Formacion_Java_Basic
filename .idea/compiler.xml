@@ -10,15 +10,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java_jdbc" />
+        <module name="jdbc_EverFuture" />
         <module name="Java_jdbc" />
         <module name="java_jdbc (1)" />
         <module name="java_jdbc (3)" />
         <module name="java_jdbc (2)" />
         <module name="Spring" />
-        <module name="documentacion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Jdbc" target="11" />
       <module name="jdbc" target="11" />
     </bytecodeTargetLevel>
   </component>

@@ -1,4 +1,4 @@
-package StackQueueHashTable;
+package com.company.StackQueueHashTable;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -16,9 +16,9 @@ public class QueueMain {
 
 //		Insertar delante - Add
 		cola.add(1);
-        cola.add(2);
+		cola.add(2);
 		cola.add(3);
-        cola.add(4);
+		cola.add(4);
 
 		System.out.println(cola);
 

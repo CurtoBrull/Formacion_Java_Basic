@@ -1,6 +1,6 @@
 package com.company.Interfaces;
 
-import com.company.CochePOO;
+import com.company.POO.CochePOO;
 
 public interface CocheService {
 
