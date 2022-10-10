@@ -9,7 +9,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java_jdbc" />
         <module name="Java_jdbc" />
+        <module name="java_jdbc (2)" />
+        <module name="java_jdbc (1)" />
+        <module name="documentacion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
