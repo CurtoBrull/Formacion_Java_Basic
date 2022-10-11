@@ -17,6 +17,12 @@ public class Alumno {
 		this.fecha_nacimiento = fecha_nacimiento;
 	}
 
+	public Alumno(String nombre, String apellidos, Date fecha_nacimiento) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.fecha_nacimiento = fecha_nacimiento;
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -63,7 +69,7 @@ public class Alumno {
 		if (this == o) return true;
 
 		if (o == null || getClass() != o.getClass()) return false;
-		
+
 		Alumno alumno = (Alumno) o;
 		return id.equals(alumno.id) && nombre.equals(alumno.nombre) && apellidos.equals(alumno.apellidos) && fecha_nacimiento.equals(alumno.fecha_nacimiento);
 	}

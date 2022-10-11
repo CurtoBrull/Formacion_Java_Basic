@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MYSQLAlumnoDAO implements AlumnoDAO {
 
-	final String INSERT = "INSERT INTO alumnos (id_alumno, nombre, apellidos, fecha_nac) VALUES (?, ?, ?, ?)";
+	final String INSERT = "INSERT INTO alumnos (nombre, apellidos, fecha_nac) VALUES (?, ?, ?)";
 	final String UPDATE = "UPDATE alumnos SET nombre = ?, apellidos = ?, fecha_nac = ? WHERE id_alumno = ?";
 	final String DELETE = "DELETE FROM alumnos WHERE id_alumno = ?";
 	final String GETALL = "SELECT id_alumno, nombre, apellidos, fecha_nac FROM alumnos";
@@ -24,20 +24,34 @@ public class MYSQLAlumnoDAO implements AlumnoDAO {
 	@Override
 	public void insertar(Alumno alumno) throws DAOExeption {
 		PreparedStatement stat = null;
+		ResultSet rs = null;
 		try {
 			stat = conn.prepareStatement(INSERT);
-			stat.setLong(1, alumno.getId());
-			stat.setString(2, alumno.getNombre());
-			stat.setString(3, alumno.getApellidos());
-			stat.setDate(4, new Date(alumno.getFecha_nacimiento().getTime()));
+			stat.setString(1, alumno.getNombre());
+			stat.setString(2, alumno.getApellidos());
+			stat.setDate(3, new Date(alumno.getFecha_nacimiento().getTime()));
 
 			if (stat.executeUpdate() == 0) {
 				throw new DAOExeption("Puede que no se haya guardado");
+			}
+			rs = stat.getGeneratedKeys();
+			if (rs.next()) {
+				alumno.setId(rs.getLong(1));
+			} else {
+				throw new DAOExeption("No puedo asignar ID a este alumno");
 			}
 
 		} catch (SQLException e) {
 			throw new DAOExeption("Error en SQL", e);
 		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException e) {
+					throw new DAOExeption("Error en SQL", e);
+				}
+			}
+
 			if (stat != null) {
 				try {
 					stat.close();
