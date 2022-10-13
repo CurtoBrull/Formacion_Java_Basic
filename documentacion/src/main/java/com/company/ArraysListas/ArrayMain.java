@@ -1,6 +1,6 @@
 package com.company.ArraysListas;
 
-public class ArrayMain {
+public class ArrayMain2 {
 	public static void main(String[] args) {
 		String nombre1 = "Nombre 1";
 		String nombre2 = "Nombre 2";
@@ -20,9 +20,9 @@ public class ArrayMain {
 			System.out.println(i + " = " + nombres[i]);
 		}
 
-        for (int i = 0; i < nombres2.length; i++) {
-            System.out.println(i + " = " + nombres2[i]);
-        }
+		for (int i = 0; i < nombres2.length; i++) {
+			System.out.println(i + " = " + nombres2[i]);
+		}
 
 
 	}
