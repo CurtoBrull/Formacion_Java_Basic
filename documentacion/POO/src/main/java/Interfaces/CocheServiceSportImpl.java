@@ -1,7 +1,5 @@
-package com.company.Interfaces;
+package Interfaces;
 
-import com.company.POO.CocheHibridoPOO;
-import com.company.POO.CochePOO;
 
 public class CocheServiceSportImpl implements CocheService {
 	@Override

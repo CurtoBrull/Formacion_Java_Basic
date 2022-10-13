@@ -1,9 +1,9 @@
-/*
+package Interfaces;/*
 
-public abstract class CochePOO {}
+public abstract class Interfaces.CochePOO {}
 
 Si se declara como abstract solo se pueden instanciar clases hijas de esta clase por lo que no se podría crear
-un CochePOO pero si un CocheElectricoPOO por ejemplo.
+un Interfaces.CochePOO pero si un Interfaces.CocheElectricoPOO por ejemplo.
  */
 
 
@@ -34,7 +34,7 @@ public class CochePOO {
 
 	@Override
 	public String toString() {
-		return "CochePOO: \n" +
+		return "Interfaces.CochePOO: \n" +
 				"color='" + color + '\'' +
 				", modelo='" + modelo + '\'' +
 				", fabricante='" + fabricante + '\'' +

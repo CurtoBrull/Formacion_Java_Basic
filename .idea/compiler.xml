@@ -5,22 +5,26 @@
       <directory url="file://$PROJECT_DIR$/everFuture/jdbc/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Taller_IntelliJ" />
         <module name="jdbc_EverFuture" />
-        <module name="java_jdbc (3)" />
-        <module name="java_jdbc (2)" />
+        <module name="POO" />
         <module name="Java_jdbc" />
         <module name="java_jdbc (1)" />
-        <module name="Spring" />
+        <module name="java_jdbc (2)" />
+        <module name="POO_Platzi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java_jdbc" target="15" />
-      <module name="Jdbc" target="11" />
+      <module name="java_jdbc (3)" target="15" />
       <module name="jdbc" target="11" />
+      <module name="Jdbc" target="11" />
+      <module name="Spring" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

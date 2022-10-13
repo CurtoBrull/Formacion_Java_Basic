@@ -1,6 +1,6 @@
 package com.company.ArraysListas;
 
-public class ArrayMain2 {
+public class ArrayMain {
 	public static void main(String[] args) {
 		String nombre1 = "Nombre 1";
 		String nombre2 = "Nombre 2";

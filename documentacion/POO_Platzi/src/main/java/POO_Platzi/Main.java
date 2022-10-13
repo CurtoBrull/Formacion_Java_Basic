@@ -1,7 +1,9 @@
-package com.company.POO_Platzi;
+package POO_Platzi;
 
-import com.company.POO_Platzi.model.Doctor;
-import com.company.POO_Platzi.model.User;
+
+import POO_Platzi.model.Doctor;
+import POO_Platzi.model.ISchedulable;
+import POO_Platzi.model.User;
 
 import java.util.Date;
 
@@ -19,6 +21,28 @@ public class Main {
 		User user = new Doctor("Anahí Salgado", "Pediatric");
 		user.showDataUser();
 		System.out.println("-------TEST-------");
+
+//		Anónima
+		User user1 = new User("Anahí Salgado", "email@email.com") {
+			@Override
+			public void showDataUser() {
+				System.out.println("Doctor");
+				System.out.println("Hospital: Cruz Verde");
+				System.out.println("Departamento: Pediatria");
+			}
+		};
+
+		user1.showDataUser();
+		System.out.println("--------------");
+
+		ISchedulable ISchedulable = new ISchedulable() {
+			@Override
+			public void schedule(Date date, String time) {
+
+			}
+		};
+
+		ISchedulable.schedule(new Date(), "1pm");
 
 //		for (Doctor.AvailableAppointment aA : myDoctor.getAvailableAppointments()) {
 //			System.out.println(aA.getDate() + " " + aA.getTime());

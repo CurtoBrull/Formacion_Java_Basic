@@ -1,5 +1,3 @@
-package com.company.POO;
-
 public class DaysMain {
 	public static void main(String[] args) {
 		Days day = Days.LUNES;

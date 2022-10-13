@@ -1,4 +1,4 @@
-package com.company.POO_Platzi;
+package POO_Platzi;
 
 public class EnumMain {
 	public static void main(String[] args) {

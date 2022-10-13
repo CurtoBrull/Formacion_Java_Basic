@@ -1,4 +1,4 @@
-package com.company.POO_Platzi.model;
+package POO_Platzi.model;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -27,11 +27,10 @@ public class Doctor extends User {
 		this.speciality = speciality;
 	}
 
-
 	ArrayList<AvailableAppointment> availableAppointments = new ArrayList<>();
 
 	public void addAvailableAppointment(Date date, String time) {
-		availableAppointments.add(new Doctor.AvailableAppointment(date, time));
+		availableAppointments.add(new AvailableAppointment(date, time));
 	}
 
 	public ArrayList<AvailableAppointment> getAvailableAppointments() {
@@ -42,7 +41,6 @@ public class Doctor extends User {
 	public String toString() {
 		return super.toString() + "\nSpeciality: " + speciality + "\nAvailable: " + availableAppointments.toString();
 	}
-
 
 	public static class AvailableAppointment {
 		private int id;

@@ -1,4 +1,4 @@
-package com.company.POO_Platzi.model;
+package POO_Platzi.model;
 
 public class Patient extends User {
 	//Atributos

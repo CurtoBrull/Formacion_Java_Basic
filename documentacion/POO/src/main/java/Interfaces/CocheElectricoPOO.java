@@ -1,3 +1,5 @@
+package Interfaces;
+
 public class CocheElectricoPOO extends CochePOO {
 	String motorElectrico;
 
@@ -11,7 +13,7 @@ public class CocheElectricoPOO extends CochePOO {
 
 	@Override
 	public String toString() {
-		return "CocheElectricoPOO{" +
+		return "Interfaces.CocheElectricoPOO{" +
 				"motorElectrico='" + motorElectrico + '\'' +
 				", color='" + color + '\'' +
 				", modelo='" + modelo + '\'' +

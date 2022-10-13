@@ -1,4 +1,4 @@
-package com.company.POO_Platzi.model;
+package POO_Platzi.model;
 
 public abstract class User {
 	private int id;

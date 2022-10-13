@@ -1,7 +1,12 @@
-package com.company.POO_Platzi.model;
+package POO_Platzi.model;
+
+
+import lombok.Setter;
+
 
 public class Nurse extends User {
 
+	@Setter
 	private String speciality;
 
 	public Nurse(String name, String email) {

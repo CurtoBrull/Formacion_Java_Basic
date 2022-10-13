@@ -1,7 +1,4 @@
-package com.company.Interfaces;
-
-import com.company.POO.CocheElectricoPOO;
-import com.company.POO.CochePOO;
+package Interfaces;
 
 // Obligadas a implementar metodos
 public class CocheServiceClassicImpl implements CocheService {

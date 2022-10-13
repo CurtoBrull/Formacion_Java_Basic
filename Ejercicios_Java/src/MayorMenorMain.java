@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Ejercicio1 {
+public class MayorMenorMain {
 	public static void main(String[] args) {
 		int x = Integer.parseInt(JOptionPane.showInputDialog("Introduce primer valor"));
 		int y = Integer.parseInt(JOptionPane.showInputDialog("Introduce segundo valor"));

@@ -1,4 +1,4 @@
-package com.company.POO_Platzi.ui;
+package POO_Platzi.ui;
 
 import java.util.Scanner;
 
