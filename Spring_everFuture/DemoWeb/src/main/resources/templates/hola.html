@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<!--Cada vez que se usa th se utiliza la plantilla thymeleaf-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página de saludo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hola, ' + ${name} + '!'"></p>
+
+<p>MENÚ:</p>
+<ul>
+    <li><a href="/app/">Inicio</a></li>
+</ul>
+</body>
+</html>
