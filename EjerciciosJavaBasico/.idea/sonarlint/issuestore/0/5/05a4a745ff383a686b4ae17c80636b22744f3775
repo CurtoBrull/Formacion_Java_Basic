@@ -1,0 +1,9 @@
+
+†
+java:S1319&"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½½ÿ˜
+|
+java:S1319&"fThe type of "textos" should be an interface such as "List" rather than the implementation "ArrayList".(½½ÿ˜
+ˆ
+java:S13193"fThe type of "textos" should be an interface such as "List" rather than the implementation "ArrayList".(Ù™¯°ûÿÿÿÿ8Â¸–°¾0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯§åí
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¿§Øÿÿÿÿÿ8‘ š°¾0

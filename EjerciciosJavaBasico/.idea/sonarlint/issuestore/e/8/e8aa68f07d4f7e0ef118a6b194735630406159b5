@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ÃªÞýÿÿÿÿ
+C
+java:S2111>"!Use "BigDecimal.valueOf" instead.(ëåŸ·øÿÿÿÿ8í…Ž´¾0
+C
+java:S2111?"!Use "BigDecimal.valueOf" instead.(’Ÿú³ûÿÿÿÿ8í…Ž´¾0
+>
+java:S2111@"!Use "BigDecimal.valueOf" instead.(Êï‰¬8í…Ž´¾0
+C
+java:S2111C"!Use "BigDecimal.valueOf" instead.(ª…ßöþÿÿÿÿ8ðÔ‰´¾0
