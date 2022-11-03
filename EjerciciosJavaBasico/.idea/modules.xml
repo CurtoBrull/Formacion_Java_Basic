@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EjerciciosJavaBasico.iml" filepath="$PROJECT_DIR$/EjerciciosJavaBasico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colecciones/colecciones.iml" filepath="$PROJECT_DIR$/colecciones/colecciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/herencia/herencia.iml" filepath="$PROJECT_DIR$/herencia/herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
     </modules>
   </component>
 </project>

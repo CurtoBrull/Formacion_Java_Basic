@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HolaMundoThymeleaf" />
+        <module name="HolaMundoSpringData" />
+        <module name="ControlClientes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ControlClientes" target="11" />
+      <module name="HolaMundoSpringData" target="11" />
       <module name="HolaMundoThymeleaf" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ControlClientes" options="-parameters" />
+      <module name="HolaMundoSpringData" options="-parameters" />
       <module name="HolaMundoThymeleaf" options="-parameters" />
     </option>
   </component>

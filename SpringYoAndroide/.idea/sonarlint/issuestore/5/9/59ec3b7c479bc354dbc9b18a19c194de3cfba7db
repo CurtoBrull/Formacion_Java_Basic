@@ -1,0 +1,69 @@
+
+^
+java:S2789€"@Methods with an "Optional" return type should never return null.(¥¹ï8Ÿ™¹œÁ0
+^
+java:S2789¯"@Methods with an "Optional" return type should never return null.(¥¹ï8 ™¹œÁ0
+
+java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²ôŠÁ8üØ¹œÁ0
+£
+java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ï½Æšıÿÿÿÿ8ıØ¹œÁ0
+¤
+java:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Îİ–Éşÿÿÿÿ8ıØ¹œÁ0
+H
+java:S1168 "+Return an empty collection instead of null.(¥¹ï8±™¹œÁ0
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8²™¹œÁ0
+H
+java:S1168&"+Return an empty collection instead of null.(¥¹ï8²™¹œÁ0
+T
+java:S1135%"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8²™¹œÁ0
+H
+java:S1168,"+Return an empty collection instead of null.(¥¹ï8³™¹œÁ0
+T
+java:S1135+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8³™¹œÁ0
+T
+java:S11351"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8³™¹œÁ0
+T
+java:S11357"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8´™¹œÁ0
+H
+java:S1168="+Return an empty collection instead of null.(¥¹ï8µ™¹œÁ0
+g
+java:S1874A"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ãğ«é8´™¹œÁ0
+T
+java:S1135B"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8´™¹œÁ0
+T
+java:S1135R"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8µ™¹œÁ0
+T
+java:S1135X"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8µ™¹œÁ0
+H
+java:S1168i"+Return an empty collection instead of null.(¥¹ï8¶™¹œÁ0
+T
+java:S1135h"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8µ™¹œÁ0
+H
+java:S1168o"+Return an empty collection instead of null.(¥¹ï8ŠÙ¹œÁ0
+T
+java:S1135n"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¶™¹œÁ0
+T
+java:S1135t"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8·™¹œÁ0
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8º™¹œÁ0
+U
+java:S1135…"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¼™¹œÁ0
+U
+java:S1135‹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8½™¹œÁ0
+U
+java:S1135‘"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¿™¹œÁ0
+U
+java:S1135—"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Á™¹œÁ0
+U
+java:S1135¢"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Á™¹œÁ0
+U
+java:S1135¨"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Â™¹œÁ0
+U
+java:S1135®"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Â™¹œÁ0
+U
+java:S1135´"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ã™¹œÁ0
+U
+java:S1135º"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ã™¹œÁ0
+U
+java:S1135À"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ä™¹œÁ0

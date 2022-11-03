@@ -1,4 +1,4 @@
-package herencia;
+package herencia.empleados;
 
 public class Oficial extends Operario {
 
@@ -6,8 +6,10 @@ public class Oficial extends Operario {
 		super(nombre);
 	}
 
+	public Oficial(){}
+
 	@Override
 	public String toString() {
-		return "Oficial\nnombre= '" + this.getNombre() + "'";
+		return "Oficial\nnombre = '" + this.getNombre() + "'";
 	}
 }

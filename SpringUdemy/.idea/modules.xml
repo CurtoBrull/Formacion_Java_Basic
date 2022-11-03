@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HolaSpring/HolaSpring.iml" filepath="$PROJECT_DIR$/HolaSpring/HolaSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlClientes/ControlClientes.iml" filepath="$PROJECT_DIR$/ControlClientes/ControlClientes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HolaMundoSpringData/HolaMundoSpringData.iml" filepath="$PROJECT_DIR$/HolaMundoSpringData/HolaMundoSpringData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HolaMundoThymeleaf/HolaMundoThymeleaf.iml" filepath="$PROJECT_DIR$/HolaMundoThymeleaf/HolaMundoThymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringUdemy.iml" filepath="$PROJECT_DIR$/.idea/SpringUdemy.iml" />
     </modules>
   </component>

@@ -1,0 +1,8 @@
+
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ñ²8Ä‘ù¥¾0
+T
+java:S2629"7Use the built-in formatting to construct this argument.(ÈºûÁ8Æ‘ù¥¾0
+k
+java:S3008"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë•¡Ú8Ï‘ù¥¾0
+^
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ÈºûÁ8×‘ù¥¾0

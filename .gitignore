@@ -139,4 +139,8 @@ fabric.properties
 # Ignore code-workspaces
 *.code-workspace
 
+# Otros
+*.mp4
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jetbrains
+*.mp4

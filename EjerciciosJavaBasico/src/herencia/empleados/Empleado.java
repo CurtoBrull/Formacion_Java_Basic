@@ -1,4 +1,4 @@
-package herencia;
+package herencia.empleados;
 
 public class Empleado {
 
@@ -8,7 +8,7 @@ public class Empleado {
 	private String lugarResidencia;
 
 	/**
-	 * Constructor por defecto
+	 * Constructor por defecto aunque no es necesario
 	 */
 	public Empleado() {
 	}

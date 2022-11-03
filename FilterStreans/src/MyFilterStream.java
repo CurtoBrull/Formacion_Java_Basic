@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class MyFilterStream {
@@ -13,6 +17,9 @@ public class MyFilterStream {
 		empleadosList.add(new Empleados("Pedro", 30));
 		empleadosList.add(new Empleados("Maria", 40));
 		empleadosList.add(new Empleados("Jose", 50));
+		empleadosList.add(new Empleados("Jose", 50));
+
+		List<Empleados> empleadosList2 = empleadosList;
 
 		myList.stream()
 				.filter(numeros -> numeros % 2 == 0)
@@ -29,5 +36,22 @@ public class MyFilterStream {
 				.collect(Collectors.toList());
 
 		System.out.println(empleadosList);
+
+		System.out.println("----------------------");
+
+		empleadosList2.stream().filter(distinctByKey((Empleados::getNombre))).forEach(System.out::println);
+
 	}
+
+	/**
+	 * Método que permite filtrar por un campo de una clase
+	 * @param keyExtractor Función que permite obtener el campo de la clase
+	 * @return Retorna un objeto de tipo Predicate
+	 * @param <T> Tipo de dato de la clase
+	 */
+	public static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
+		Set<Object> seen = ConcurrentHashMap.newKeySet();
+		return t -> seen.add(keyExtractor.apply(t));
+	}
+
 }

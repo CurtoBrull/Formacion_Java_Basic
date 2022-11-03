@@ -1,4 +1,4 @@
-package herencia.empleados;
+package empleados;
 
 public class Empleado {
 

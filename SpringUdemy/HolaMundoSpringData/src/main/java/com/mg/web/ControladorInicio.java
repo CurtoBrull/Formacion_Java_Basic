@@ -1,7 +1,9 @@
-package com.mg;
+package com.mg.web;
 
+import com.mg.dao.PersonaDao;
 import com.mg.domain.Persona;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,37 +16,14 @@ import java.util.List;
 @Slf4j
 public class ControladorInicio {
 
-//	Buscar el valor de la propiedad "index.saludo" en el archivo application.properties
-//	@Value("${index.saludo}")
-	private String saludo;
-
+//	Inyectar interface PersonaDao
+	@Autowired
+	private PersonaDao personaDao;
 
 	@GetMapping("/")
 	public String inicio(Model model) {
-
-		var mensaje = "Hola Mundo con Thymeleaf";
-
-		var persona = new Persona();
-		persona.setNombre("Juan");
-		persona.setApellido("Perez");
-		persona.setEmail("email@email.com");
-		persona.setTelefono("123456789");
-
-		var persona2 = new Persona();
-		persona2.setNombre("Loli");
-		persona2.setApellido("Adamuz");
-		persona2.setEmail("email2@email.com");
-		persona2.setTelefono("167324289");
-
-		List<Persona> personas = new ArrayList<>();
-		personas.add(persona);
-		personas.add(persona2);
-
-		log.info("Ejecutando el controlador Spring MVC");
-		model.addAttribute("mensaje", mensaje);
-//		model.addAttribute("saludo", saludo);
-		model.addAttribute("persona", persona);
-		model.addAttribute("persona", persona2);
+		var personas = personaDao.findAll();
+		log.info("ejecutando el controlador Spring MVC");
 		model.addAttribute("personas", personas);
 		return "index";
 	}

@@ -1,2 +1,0 @@
-package com.mitocode.beans;public class Mundo {
-}

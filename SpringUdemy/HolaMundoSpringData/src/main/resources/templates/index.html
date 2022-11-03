@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
     <title>Inicio</title>
+    <meta charset="UTF-8">
 </head>
 <body>
 <h1>Inicio</h1>
-<p th:text="${mensaje}"></p>
-<p th:text="${saludo}"></p>
-<hr>
-
-<p>Nombre: <span th:text="${persona.nombre}"></span></p>
-<p>Apellido: <span th:text="${persona.apellido}"></span></p>
-<p>Email: <span th:text="${persona.email}"></span></p>
-<p>Teléfono: <span th:text="${persona.telefono}"></span></p>
-<hr>
-
-<div th:if="${personas  != null and !personas.empty}">
+<div th:if="${personas != null and !personas.empty}">
     <table border="1">
         <tr>
             <th>Nombre</th>
@@ -24,22 +14,17 @@
             <th>Email</th>
             <th>Teléfono</th>
         </tr>
-
-
-        <!--    Recorrer el array personas -->
         <tr th:each="persona : ${personas}">
-            <td th:text="${persona.nombre}"></td>
-            <td th:text="${persona.apellido}"></td>
-            <td th:text="${persona.email}"></td>
-            <td th:text="${persona.telefono}"></td>
+            <td th:text="${persona.nombre}">Mostrar Nombre</td>
+            <td th:text="${persona.apellido}">Mostrar Apellido</td>
+            <td th:text="${persona.email}">Mostrar Email</td>
+            <td th:text="${persona.telefono}">Mostrar Teléfono</td>
         </tr>
     </table>
 </div>
-<!--Si la lista es nula o vacía-->
-<div th:if="${personas  == null or personas.empty}">
-    <p>No hay personas</p>
+<div th:if="${personas == null or personas.empty}">
+    La lista de personas está vacía
 </div>
-
 
 </body>
 </html>

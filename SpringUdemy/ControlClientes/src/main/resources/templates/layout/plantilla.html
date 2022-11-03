@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Plantilla</title>
 </head>
 <body>
-$END$
+
+<!-- Fragmentos reutilizables -->
+<header th:fragment="header">
+    <!--    Forma 1 de usar messages.properties  -->
+    <h1 th:text="#{plantilla.titulo}"></h1>
+</header>
+
+<footer th:fragment="footer">
+    <!--    Forma 2 de usar messages.properties  -->
+    <div>
+        <br>
+        <a href="" th:href="@{/(lang=es)}">ES</a> |
+        <a href="" th:href="@{/(lang=en)}">EN</a>
+        <span>[[#{plantilla.pie-pagina}]] <a href="#">Link a lo que sea</a></span>
+
+        <form method="post" th:action="@{/logout}">
+            <b>User: </b> <span sec:authentication="name">Usuario que hizo login </span> <br>
+            <b>Roles:</b> <span sec:authentication="principal.authorities">Roles del usuario</span> <br>
+            <a href="#" onclick="this.parentNode.submit()">Logout</a>
+        </form>
+
+    </div>
+</footer>
+
 </body>
 </html>

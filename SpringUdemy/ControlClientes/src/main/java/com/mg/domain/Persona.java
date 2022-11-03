@@ -3,6 +3,8 @@ package com.mg.domain;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 
 // Data de lombok agrega getters setters hash toString y constructores
@@ -17,8 +19,14 @@ public class Persona implements Serializable {
 //	@Column(name = "id_persona")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idPersona;
-	private String nombre;
-	private String apellido;
+
+//	Validaciones
+	@NotEmpty
+	private String nombre, apellido;
+
+	@NotEmpty
+	@Email
 	private String email;
+
 	private String telefono;
 }
