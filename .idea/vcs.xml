@@ -2,7 +2,23 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ApiRest1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ApiRest2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FundamentosSpring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JUnitCalculadora/JUnitCalculadora" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaSE-Functional-platzi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Patrones" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringFundamentosNTT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringOBC/obrestdatajpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringPlatzi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringYoAndroide/PersonaBackend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring_API_Rest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Streams" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apiRest3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apirest-todo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apirest4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springOpenBootCamp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springUdemy2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/testsEjercicios" vcs="Git" />
   </component>
 </project>
